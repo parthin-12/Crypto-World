@@ -1,0 +1,24 @@
+#loginBtn{
+    width: 85px;
+    height: 40px;
+    margin-left: 15px;
+    background-color: white;
+    font: 600 0.9rem "Nunito";
+    transition: all 0.5s;
+}
+
+#loginBtn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.google{
+    padding: 24px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    font-size: 20px;
+}

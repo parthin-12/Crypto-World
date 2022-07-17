@@ -1,0 +1,32 @@
+
+.headerContainer{
+    margin:0.5rem 0;
+}
+
+.title{
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+    border:none;
+    outline: none;
+}
+
+.title>p:first-child{
+    background-color: black;
+    border: 1px solid white;
+    border-right: none;
+    padding: 0.5rem 0.75rem;
+    padding-right: 0.25rem;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+
+.title>p:last-child{
+    color: black;
+    background-color:white;
+    border-left: none;
+    padding: 0.6rem 0.75rem;
+    padding-left: 0.25rem;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
